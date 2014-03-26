@@ -17,6 +17,16 @@ l , lava.png
 ^ , mountain.png
 T , tree.png
 ~ , water.png
+d , Dunkin-Donuts.png
+r , Roadline.png
+s , streetlight.png
+D , Donut.png
+c , coffee.png
+v , car.png
+b , bomb.png
+p, rock.png
+h , hole.png
+n , brick.png
 o , white.png , A white square. Use if nothing is at that spot.
 
 # Misc

@@ -1,5 +1,7 @@
 package edu.macalester.comp124.hw5;
 
+import java.util.Scanner;
+
 /**
  *
  * @author baylor
@@ -22,5 +24,14 @@ public class Application
 		//--- It's also our Controller when navigating the map
 		MainForm mapScreen = new MainForm(theGame);
 		mapScreen.setVisible(true);
+
+
+        System.out.println("Enter the character's name and health separated by a comma e.g Bob,100?");
+        Scanner userInput = new Scanner(System.in);
+        String[] choice = userInput.nextLine().split(",");
+
+
+        Cop cop = new Cop(choice[0], Integer.parseInt(choice[1]));
+
 	}
 }

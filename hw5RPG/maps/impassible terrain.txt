@@ -5,3 +5,4 @@
 ^ , mountain
 T , tree
 ~ , water
+p , rock
