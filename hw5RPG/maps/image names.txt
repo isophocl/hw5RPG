@@ -7,9 +7,13 @@
 
 # Actors (player, monsters, etc.)
 player , actor.png
+pimp , pimp.png
+robber, robber.png
+gangster , gangster.png
 
 # Items
 g , gold.png
+*, transparency.png
 
 # Terrain (grass, trees, castles, etc.)
 . , grass.png
@@ -17,15 +21,13 @@ l , lava.png
 ^ , mountain.png
 T , tree.png
 ~ , water.png
-d , Dunkin-Donuts.png
+D , Dunkin-Donuts.png
 r , Roadline.png
 s , streetlight.png
-D , Donut.png
+d , Donut.png
 c , coffee.png
 v , car.png
-b , bomb.png
 p, rock.png
-h , hole.png
 n , brick.png
 o , white.png , A white square. Use if nothing is at that spot.
 
