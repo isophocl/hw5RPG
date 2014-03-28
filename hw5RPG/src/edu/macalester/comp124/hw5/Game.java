@@ -205,24 +205,24 @@ public class Game {
 
 
     public void initializeCopAttacks() {
-        copAttacks.add(new Attack("Baton", 3, "beat"));
+        copAttacks.add(new Attack("Baton", 3, "lay the beat down on"));
         copAttacks.add(new Attack("Pepper Spray", 0, "sprayed"));
-        copAttacks.add(new Attack("Gun", 10, "shot"));
+        copAttacks.add(new Attack("Gun", 10, "pulled out a 9mm and put three bullets in"));
     }
 
     public void initializeGangsterAttack() {
-        gangsterAttacks.add(new Attack("Gang bang", 5, "beat"));
-        gangsterAttacks.add(new Attack("Gun", 10, "shot"));
+        gangsterAttacks.add(new Attack("Gang bang", 5, "called the homeys and jumped"));
+        gangsterAttacks.add(new Attack("Gun", 10, "pulled out a shotgun and popped a cap in"));
     }
 
     public void initializePimpAttacks() {
-        pimpAttacks.add(new Attack("Golden tooth smile", 1, "blinds "));
-        pimpAttacks.add(new Attack("Pimp stick", 6, "beats "));
-        pimpAttacks.add(new Attack("Pimp slap", 5, "slaps "));
+        pimpAttacks.add(new Attack("Golden tooth smile", 1, "shows off that blinding smile, paralyzing"));
+        pimpAttacks.add(new Attack("Pimp stick", 6, "pulls the pimp stick out and beats"));
+        pimpAttacks.add(new Attack("Pimp slap", 5, "slaps"));
     }
 
     public void initializeRobberAttacks() {
-        robberAttacks.add(new Attack("Steal", 1, "stole the cop hat of "));
+        robberAttacks.add(new Attack("Steal", 1, "stole the cop hat of"));
         robberAttacks.add(new Attack("Super punch", 8, "punched"));
     }
 
