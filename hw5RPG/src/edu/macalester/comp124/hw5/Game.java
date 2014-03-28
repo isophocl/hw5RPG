@@ -205,8 +205,8 @@ public class Game {
 
 
     public void initializeCopAttacks() {
-        copAttacks.add(new Attack("Baton", 3, "lay the beat down on"));
-        copAttacks.add(new Attack("Pepper Spray", 0, "sprayed"));
+        copAttacks.add(new Attack("Baton", 5, "lay the beat down on"));
+        copAttacks.add(new Attack("Pepper Spray", 3, "sprayed"));
         copAttacks.add(new Attack("Gun", 10, "pulled out a 9mm and put three bullets in"));
     }
 
@@ -339,13 +339,13 @@ public class Game {
 
         System.out.println("\n" +
                 "\n"+
-                "*****************************\n"+
+                "*******************************************************\n"+
                 "  " + attacker.getName() + " " +
                 attack.actionDescription    +
                 " " + target.getName() + " for " + damage +
                 " points of damage. " +
                 target.health + "hp remaining.\n"+
-                "*****************************\n"+"\n");
+                "*******************************************************\n"+"\n");
 
     }
 
