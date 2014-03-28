@@ -1,0 +1,9 @@
+Instructions:
+
+You begin the game as a starving cop in search for his daily dose of Dunkin donuts (marked by the Dunkin donuts icon on the screen).
+The goal of the game is to defeat each enemy you encounter along the way (they can either be a gangster, robber or pimp - each varying in difficulty to defeat) as you progress to the Dunkin donuts icon.
+You begin by naming your player, and he automatically assumes a health of 100hp. Using the directional arrows you are able to move your player around the map,
+and colliding with an opponent will set off a combat mode. Each battle lasts until either you or your opponent has fainted (is out of health/dies).
+If your opponent has decreased your hp, you have the opportunity to build it back up by consuming donuts or cups of coffee along the way.
+Once you have defeated each opponent, and managed to make it to the Dunkin Donuts icon, you have completed the game and can finally get to munch on an infinite amount of donuts!.
+Have fun!
