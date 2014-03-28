@@ -107,7 +107,7 @@ public class Game {
 
 
         //--- Create a player, stick him in the top left corner
-        System.out.println("** Enter what you want the character's name to be **");
+        System.out.println("** Enter what you would like the character's name to be **");
         Scanner userInput = new Scanner(System.in);
         String choice = userInput.nextLine();
 
